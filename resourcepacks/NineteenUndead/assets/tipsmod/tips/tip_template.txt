@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Apocalypse Survival Tip",
+        "bold": true,
+        "color": "orange"
+    },
+    "tip": {
+        "translate": "your_id.tip.the_tip_id"
+    }
+}

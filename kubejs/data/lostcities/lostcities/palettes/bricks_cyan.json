@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "minecraft:cyan_concrete",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:black_concrete",
+      "damaged": "citydecor:iron_scaffolding"
+    },
+    {
+      "char": "#",
+      "block": "citydecor:worn_cyan_concrete",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "}",
+      "block": "citydecor:worn_cyan_concrete_slab",
+      "damaged": "citydecor:iron_frame"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+	"type": "skybox",
+	"skybox": {
+		"texture": "celestial:sky/overworld/objects/green_nebula/down.png",
+		"texture_width": "512",
+		"texture_height": "512",
+		"sides": {
+			"0": {
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			},
+			"1": {
+				"texture": "celestial:sky/overworld/objects/green_nebula/north.png",
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			}
+			,
+			"2": {
+				"texture": "celestial:sky/overworld/objects/green_nebula/south.png",
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			}
+			,
+			"3": {
+				"texture": "celestial:sky/overworld/objects/green_nebula/up.png",
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			}
+			,
+			"4": {
+				"texture": "celestial:sky/overworld/objects/green_nebula/east.png",
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			}
+			,
+			"5": {
+				"texture": "celestial:sky/overworld/objects/green_nebula/west.png",
+				"uv_x": "0",
+				"uv_y": "0",
+				"uv_width": 512,
+				"uv_height": 512
+			}
+		}
+	},
+	"properties": {
+		"is_solid": false,
+		"alpha": "0.5"
+	}
+}

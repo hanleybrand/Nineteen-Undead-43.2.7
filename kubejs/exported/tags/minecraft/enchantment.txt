@@ -1,0 +1,6 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 11, 2022, 1:43:41 PM
+
+#allurement:unusable_on_horse_armor
+- hmag:health_boost (from hmag-forge-mc1.19.2-6.1.2.jar)
+
+#hmag:unremovable_curses

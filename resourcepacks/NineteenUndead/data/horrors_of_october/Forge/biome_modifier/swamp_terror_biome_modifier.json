@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "swamp",
+  "spawners": {
+    "type": "horrors_of_october:swamp_terror",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

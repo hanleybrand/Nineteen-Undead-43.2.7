@@ -1,0 +1,8 @@
+{
+  "type": "forge:none",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "horror_elements_mod:horrificsewers",
+  "step": "underground_structures"
+}

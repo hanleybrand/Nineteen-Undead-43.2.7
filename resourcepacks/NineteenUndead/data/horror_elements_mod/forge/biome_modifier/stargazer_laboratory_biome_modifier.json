@@ -1,0 +1,11 @@
+{
+  "type": "forge:none",
+  "biomes": [
+    "horror_elements_mod:horrorforest",
+    "savanna",
+    "plains",
+    "desert"
+  ],
+  "features": "horror_elements_mod:stargazer_laboratory",
+  "step": "surface_structures"
+}

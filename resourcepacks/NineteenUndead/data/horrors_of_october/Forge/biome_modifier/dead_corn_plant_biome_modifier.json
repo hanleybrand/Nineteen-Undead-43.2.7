@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "plains",
+  "features": "horrors_of_october:dead_corn_plant",
+  "step": "vegetal_decoration"
+}

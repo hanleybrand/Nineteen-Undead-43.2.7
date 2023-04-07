@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "beach",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "horrors_of_october:terror_ofthe_waters",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

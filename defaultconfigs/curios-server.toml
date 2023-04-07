@@ -1,0 +1,12 @@
+#List of curio slot type settings
+[[curiosSettings]]
+  identifier = "trinkets"
+  size = 4
+
+[[curiosSettings]]
+  identifier = "ring"
+  size = 4
+
+[[curiosSettings]]
+  identifier = "back"
+  size = 2

@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "desert",
+  "features": "horror_elements_mod:pyramidofthedeath",
+  "step": "surface_structures"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "forest",
+  "features": "horror_elements_mod:scarified_pig",
+  "step": "underground_ores"
+}

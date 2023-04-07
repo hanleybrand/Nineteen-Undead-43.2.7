@@ -1,0 +1,8 @@
+{
+    "displayName": "Treasure Bag",
+    "lootTable": "treasurebags:bags/default",
+    "bagColor": "white",
+    "bagOverlayColor": "white",
+    "bagStringColor": "white",
+    "visible": false
+}

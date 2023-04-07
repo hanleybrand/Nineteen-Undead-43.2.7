@@ -1,0 +1,11 @@
+{
+  "type": "forge:none",
+  "biomes": [
+    "bamboo_jungle",
+    "horror_elements_mod:horrorforest",
+    "sparse_jungle",
+    "jungle"
+  ],
+  "features": "horror_elements_mod:predatortrophyroom",
+  "step": "surface_structures"
+}

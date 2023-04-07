@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "plains",
+  "features": "horror_elements_mod:sacrificialplatform",
+  "step": "surface_structures"
+}

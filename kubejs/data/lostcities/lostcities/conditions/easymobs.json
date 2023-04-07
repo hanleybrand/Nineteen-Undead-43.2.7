@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 1,
+      "value": "minecraft:zombie"
+    },
+    {
+      "factor": 1,
+      "value": "rottencreatures:zombie_lackey"
+    },
+    {
+      "factor": 1,
+      "value": "hmag:zombie_girl"
+    }
+  ]
+}

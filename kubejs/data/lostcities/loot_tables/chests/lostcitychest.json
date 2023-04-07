@@ -1,0 +1,27 @@
+{
+  "type": "lostcities:lostcitychest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cgm:basic_bullet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 24
+              },
+              "add": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

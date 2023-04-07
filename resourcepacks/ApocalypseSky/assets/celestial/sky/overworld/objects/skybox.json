@@ -1,0 +1,29 @@
+{
+	"type": "skybox",
+	"skybox": {
+		"texture": "minecraft:textures/environment/end_sky.png",
+		"size": "100",
+		"texture_width": "16",
+		"texture_height": "16",
+		"sides": {
+			"all": {
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 128,
+				"uv_height": 128
+			}
+		}
+	},
+	"properties": {
+		"rotation": {
+			"degrees_x": 0,
+			"degrees_y": 0,
+			"degrees_z": "#skyAngle - 90"
+		},
+		"is_solid": false,
+		"red": "0.568",
+		"green": "0.1568",
+		"blue": "0.1568", 
+		"alpha" : "0.5"
+	}
+}

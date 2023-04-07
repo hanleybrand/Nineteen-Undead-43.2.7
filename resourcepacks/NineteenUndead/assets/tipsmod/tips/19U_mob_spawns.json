@@ -1,0 +1,10 @@
+{
+    "title": {
+        "translate": "tipsmod.title.apocalyspe",
+        "bold": true,
+        "color": "orange"
+    },
+    "tip": {
+        "translate": "tipsmod.tip.19U_mob_spawns"
+    }
+}

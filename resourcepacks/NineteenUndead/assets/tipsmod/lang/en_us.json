@@ -1,0 +1,19 @@
+{
+    "tipsmod.title.default": "Tip",
+    "tipsmod.title.apocalyspe": "Apocalypse Survival",
+    "tipsmod.tip.no_tips": "No tips have been loaded. Please review the configurations.",
+    "tipsmod.tip.poison_immune": "Zombies are immune to poison damage. Skeletons and Spiders too, if you happen to see any",
+    "tipsmod.tip.west": "The Sun moves towards the west, other celestial objects have their own motives",
+    "tipsmod.tip.smoke_bees": "Placing a Campfire beneath a Bee Nest will make those Bees passive.",
+    "tipsmod.tip.lava_fuel": "Lava Buckets can be used as fuel in the Furnace.",
+    "tipsmod.tip.wooden_tool_fuel": "Old Wooden tools can be used as fuel in the Furnace.",
+    "tipsmod.tip.scrap_nuggets": "Lots of metal things can be smelted into nuggets.",
+    "tipsmod.tip.bed_respawn": "Sleeping in a bed or right-clicking a campfire will set your spawn point.",
+    "tipsmod.tip.joke.combat": "Zombies dislike it when you stab them with a sword. Or an axe. Or when you shoot them.",
+    "tipsmod.tip.joke.swim": "If you stay under water too long you may drown, in case you never heard that.",
+    "tipsmod.tip.joke.lava": "Like any items, buckets will burn in lava, but not when the lava is IN the bucket.",
+    "tipsmod.tip.joke.creeper": "Don't play AC/DC near Creepers, they may become Thunderstruck. Have you seen any Creepers, btw?",
+    "tipsmod.tip.joke.shears": "Running with Shears is safer in Minecraft. Also try Wooden Shears!",
+    "tipsmod.tip.joke.19u_mob_spawns": "Only zombies have returned to the world - you'll either strain or stuff will have to come from nothing?",
+    "tipsmod.tip.joke.19u_silkworms": "The crafty crook catches the silkworm. (hint hint)"
+}

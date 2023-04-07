@@ -1,0 +1,13 @@
+{
+  "type": "forge:none",
+  "biomes": [
+    "forest",
+    "horror_elements_mod:horrorforest",
+    "snowy_plains",
+    "taiga",
+    "plains",
+    "snowy_taiga"
+  ],
+  "features": "horror_elements_mod:hauntedchurch",
+  "step": "surface_structures"
+}

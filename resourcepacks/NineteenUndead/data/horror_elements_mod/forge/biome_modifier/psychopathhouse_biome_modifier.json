@@ -1,0 +1,9 @@
+{
+  "type": "forge:none",
+  "biomes": [
+    "horror_elements_mod:horrorforest",
+    "dark_forest"
+  ],
+  "features": "horror_elements_mod:psychopathhouse",
+  "step": "surface_structures"
+}

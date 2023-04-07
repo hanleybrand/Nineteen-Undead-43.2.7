@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "forest",
+  "features": "horror_elements_mod:slicedbody",
+  "step": "underground_ores"
+}

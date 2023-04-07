@@ -1,0 +1,123 @@
+{
+	id: "75F06427CDE9010D"
+	group: "3EFC64AB4266662B"
+	order_index: 0
+	filename: "orientation_day"
+	title: "Orientation Day"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Protect ya neck"
+			icon: {
+				id: "immersive_armors:wooden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -3.0d
+			subtitle: "Basic Armor"
+			description: ["You are in signifigant danger - you'll be able to scrounge up better materials and equipment, but for now take some logs and craft yourself a set of Wooden Armor"]
+			dependencies: ["430F2704A49A151D"]
+			id: "11774056EA51FAAA"
+			tasks: [
+				{
+					id: "31D9807D298395E8"
+					type: "item"
+					item: {
+						id: "immersive_armors:wooden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 9
+							set_bonus: 4
+						}
+					}
+				}
+				{
+					id: "559853312122A18E"
+					type: "item"
+					item: {
+						id: "immersive_armors:wooden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 9
+							set_bonus: 4
+						}
+					}
+				}
+				{
+					id: "50EDDDF7188C10ED"
+					type: "item"
+					item: {
+						id: "immersive_armors:wooden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 9
+							set_bonus: 4
+						}
+					}
+				}
+				{
+					id: "52DCECF669067324"
+					type: "item"
+					item: {
+						id: "immersive_armors:wooden_boots"
+						Count: 1b
+						tag: {
+							Damage: 9
+							set_bonus: 4
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "69F1E6DD3FA7864D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "473AA92DEFE83320"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+			]
+		}
+		{
+			title: "At Loggerheads"
+			x: -6.0d
+			y: -5.5d
+			subtitle: "Big surprise - you gotta punch trees"
+			id: "430F2704A49A151D"
+			tasks: [{
+				id: "03D0D96AC594E442"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "784BD02482A466CA"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "44312444A7EA0742"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
