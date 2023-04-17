@@ -173,6 +173,10 @@
         "value": "park_plants_pillars"
       },
       {
+        "factor": 1.0,
+        "value": "park_vending"
+      },
+      {
         "factor": 0.8,
         "value": "park_fountain1"
       },

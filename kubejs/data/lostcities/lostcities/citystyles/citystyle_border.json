@@ -1,7 +1,6 @@
 {
   "style": "standard_border",
   "inherit": "citystyle_common",
-
   "buildingsettings": {
     "maxfloors": 1,
     "maxcellars": 1,
@@ -52,8 +51,7 @@
         "value": "building5"
       }
     ],
-    "multibuildings": [
-    ],
+    "multibuildings": [],
     "bridges": [
       {
         "factor": 1.0,
@@ -89,7 +87,7 @@
       },
       {
         "factor": 1.0,
-        "value": "stairsnormal"
+        "value": "stairs_normal"
       },
       {
         "factor": 1.0,
@@ -126,6 +124,10 @@
       {
         "factor": 1.0,
         "value": "park_plants_pillars"
+      },
+      {
+        "factor": 20,
+        "value": "park_vending"
       },
       {
         "factor": 0.8,

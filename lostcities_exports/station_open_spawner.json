@@ -1,0 +1,54 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "o",
+        "block": "minecraft:spawner"
+      }
+    ]
+  },
+  "exportedpart": {
+    "refpalette": "rails",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyoyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyoyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy"
+      ]
+    ]
+  }
+}

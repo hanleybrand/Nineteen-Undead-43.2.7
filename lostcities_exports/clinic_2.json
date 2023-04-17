@@ -1,0 +1,193 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "'",
+        "block": "horrors_of_october:wallpaper_block_brick[facing=west]"
+      },
+      {
+        "char": "]",
+        "block": "horrors_of_october:wallpaper_block_brick_blue[facing=north]"
+      },
+      {
+        "char": "P",
+        "block": "horrors_of_october:wallpaper_block_brick_blue[facing=south]"
+      },
+      {
+        "char": ">",
+        "block": "horror_elements_mod:flashing_lamp_on"
+      },
+      {
+        "char": "&",
+        "block": "horrors_of_october:wallpaper_block_brick_blue[facing=east]"
+      },
+      {
+        "char": "<",
+        "block": "horrors_of_october:wallpaper_block_brick[facing=north]"
+      },
+      {
+        "char": "[",
+        "block": "horrors_of_october:wallpaper_block_brick_blue[facing=west]"
+      },
+      {
+        "char": "{",
+        "block": "horrors_of_october:wallpaper_block_brick[facing=south]"
+      },
+      {
+        "char": "|",
+        "block": "horrors_of_october:wallpaper_block_brick[facing=east]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "         e      ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "fffffffffffffiif",
+        "fffffffffffffiif",
+        "fffffffffffffiif",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff"
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   cPPPPPPPPc   ",
+        "   &        [   ",
+        "   &        [   ",
+        "   &        [   ",
+        "   &        [   ",
+        "   &        [   ",
+        "   &        [   ",
+        "   &     q  [   ",
+        "   &    r s [   ",
+        "   c] ]]]]]]c   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   c{{{{{{{{c   ",
+        "   |HHHIJM  '   ",
+        "   |       N'   ",
+        "   |O       '   ",
+        "   |        '   ",
+        "   |        U   ",
+        "   |        U   ",
+        "   |        '   ",
+        "   |       V'   ",
+        "   c<0<<<<<<c   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   c{{{{{{{{c   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   |        '   ",
+        "   c< <<<<<<c   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   c11111111c   ",
+        "   2eeeeeeeec   ",
+        "   2e6eeee6e4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2e>eeee>e4   ",
+        "   2eeeeeeee4   ",
+        "   c33333333c   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    88888888    ",
+        "    888^^888    ",
+        "    888^^888    ",
+        "    8^^^^^^8    ",
+        "    8^^^^^^8    ",
+        "    888^^888    ",
+        "    888^^888    ",
+        "    88888888    ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

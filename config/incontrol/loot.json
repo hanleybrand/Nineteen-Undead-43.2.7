@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:husk",
+            "minecraft:drowned",
+            "minecraft:zombie_villager",
+            "hmag:drowned_girl",
+            "hmag:zombie_girl",
+            "hmag:husk_girl",
+            "mca:female_zombie_villager",
+            "mca:male_zombie_villager",
+            "rottencreatures:zombie_lackey",
+            "rottencreatures:burned",
+            "rottencreatures:undead_miner"
+        ],
+        "item": "cgm:basic_bullet",
+        "itemcount": "1-3/3-4/4-6"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:husk",
+            "minecraft:drowned",
+            "minecraft:zombie_villager",
+            "hmag:drowned_girl",
+            "hmag:zombie_girl",
+            "hmag:husk_girl",
+            "mca:female_zombie_villager",
+            "mca:male_zombie_villager",
+            "rottencreatures:zombie_lackey",
+            "rottencreatures:burned",
+            "rottencreatures:undead_miner"
+        ],
+        "item": "opolisutilities:b_bucks",
+        "itemcount": "1-3/3-4/4-6"
+    }
+]

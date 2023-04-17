@@ -7,11 +7,11 @@ Minable = false
 #Fixed items; item or item,amount,pay_item,cost,uses
 FixedItems = ["minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air"]
 #Include Mods
-IncludeMods = ["*"]
+IncludeMods = ["zombiekit", "sewingkit", "iwannaskate", "hmag", "exnihilosequentia", "farmersdelight", "minecraft", "resourceful_tools", "supplementaries", "opolisutilities", "mca", "clickmachine", "bagofholding", "craftingautomat"]
 #Exclude Mods
-ExcludeMods = ["draconicevolution", "avaritia", "botania"]
+ExcludeMods = ["toms_storage", "scuba_gear", "rottencreatures", "quark", "platforms", "nameless_trinkets", "obscure_api", "itemfilters", "immersive_paintings", "horrors_of_october"]
 #Include Items
-IncludeItems = ["*"]
+IncludeItems = ["zombiekit:serum_bottle", "zombiekit:serum_needle_tubing", "zombiekit:studded_baseball_bat", "zombiekit:fire_axe_broken", "zombiekit:crowbar_broken", "zombiekit:cloth", "zombiekit:baseball_bat_broken", "sewingkit:iron_sewing_needle", "zombiekit:machete", "zombiekit:mirror_suspicious_medicine", "zombiekit:camphor", "zombiekit:alcohol", "zombiekit:hydrogen_nitrate", "resourceful_tools:jerky", "supplementaries:rope_arrow", "opolisutilities:redstone_clock", "opolisutilities:jerky", "mca:book_blueprint", "mca:needle_and_thread", "mca:comb", "iwannaskate:energy_drink", "iwannaskate:pizza_slice", "hmag:randomberry", "hmag:cureberry", "craftingautomat:autocrafter", "bagofholding:leather_bag_of_holding", "clickmachine:auto_clicker"]
 #Exclude Items
 ExcludeItems = ["minecraft:nether_star", "minecraft:beacon", "minecraft:bedrock", "minecraft:shulker_box", "minecraft:colorset*shulker_box", "minecraft:elytra", "minecraft:end_portal_frame", "minecraft:armorset*netherite", "minecraft:toolset*netherite", "minecraft:netherite_block", "minecraft:netherite_ingot", "vm:vending_machine"]
 #Include Creative Tab Groups
@@ -23,13 +23,13 @@ ItemRarity = ["minecraft:emerald_block=1", "minecraft:diamond_block=1", "minecra
 
 [RarityData]
 	#Common Item
-	CommonItem = "minecraft:emerald"
+	CommonItem = "opolisutilities:b_bucks"
 	#Uncommon Item
-	UncommonItem = "minecraft:emerald"
+	UncommonItem = "opolisutilities:b_bucks"
 	#Rare Item
-	RareItem = "minecraft:emerald"
+	RareItem = "opolisutilities:b_bucks"
 	#Epic Item
-	EpicItem = "minecraft:emerald"
+	EpicItem = "opolisutilities:b_bucks"
 	#Common Cost
 	#Range: 0 ~ 64
 	CommonCost = 1

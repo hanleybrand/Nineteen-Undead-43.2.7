@@ -1,0 +1,185 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "palette": {
+    "palette": [
+      {
+        "char": "|",
+        "block": "create:framed_glass_door[facing=south,half=upper,hinge=left,open=false,powered=false,visible=true]"
+      },
+      {
+        "char": "{",
+        "block": "create:framed_glass_door[facing=south,half=upper,hinge=right,open=false,powered=false,visible=true]"
+      },
+      {
+        "char": "[",
+        "block": "create:framed_glass_door[facing=south,half=lower,hinge=left,open=false,powered=false,visible=true]"
+      },
+      {
+        "char": "]",
+        "block": "securitycraft:reinforced_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+      },
+      {
+        "char": "'",
+        "block": "horror_elements_mod:flashing_lamp_on"
+      },
+      {
+        "char": "P",
+        "block": "horrors_of_october:steel_table"
+      },
+      {
+        "char": "&",
+        "block": "create:framed_glass_door[facing=south,half=lower,hinge=right,open=false,powered=false,visible=true]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff"
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   ceeeeeeeec   ",
+        "   ePPPPPPPPe   ",
+        "   e       Pe   ",
+        "   e       Pe   ",
+        "   e       Pe   ",
+        "   e       Pe   ",
+        "   e       Pe   ",
+        "   e     q  e   ",
+        "   e    r s e   ",
+        "   ce&[eeeeec   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   ceeeeeeeec   ",
+        "   eHHHIJM Ne   ",
+        "   e       Ne   ",
+        "   eO      Ne   ",
+        "   ]       Ve   ",
+        "   ]        ]   ",
+        "   e        ]   ",
+        "   e        e   ",
+        "   e       Ve   ",
+        "   ce{|ee5eec   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   ceeeeeeeec   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   e        e   ",
+        "   ceeeeeeeec   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   c11111111c   ",
+        "   2eeeeeeeec   ",
+        "   2e6eeee6e4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2eeeeeeee4   ",
+        "   2e6eeee'e4   ",
+        "   2eeeeeeee4   ",
+        "   c33333333c   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    88888888    ",
+        "    888^^888    ",
+        "    888^^888    ",
+        "    8^^^^^^8    ",
+        "    8^^^^^^8    ",
+        "    888^^888    ",
+        "    888^^888    ",
+        "    88888888    ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

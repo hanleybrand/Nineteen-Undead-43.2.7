@@ -1,1 +1,35 @@
-[]
+[
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:husk",
+            "minecraft:drowned",
+            "minecraft:zombie_villager",
+            "minecraft:elder_guardian",
+            "minecraft:guardian",
+            "hmag:drowned_girl",
+            "hmag:zombie_girl",
+            "hmag:husk_girl",
+            "iwannaskate:wandering_skater",
+            "mca:male_villager",
+            "mca:female_villager",
+            "mca:female_zombie_villager",
+            "mca:grim_reaper",
+            "mca:male_zombie_villager",
+            "rottencreatures:zombie_lackey",
+            "rottencreatures:burned",
+            "rottencreatures:dead_beard",
+            "rottencreatures:undead_miner",
+            "minecraft:warden"
+        ],
+        "dimension": "minecraft:overworld",
+        "result": "default"
+    },
+    {
+        "passive": true,
+        "result": "default"
+    },
+    {
+        "result": "deny"
+    }
+]

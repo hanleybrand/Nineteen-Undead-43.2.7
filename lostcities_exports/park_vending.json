@@ -1,0 +1,111 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "k",
+        "block": "minecraft:crafting_table"
+      },
+      {
+        "char": "r",
+        "block": "vm:vending_machine[bottom=false,facing=south]"
+      },
+      {
+        "char": "j",
+        "block": "handcrafted:dark_oak_dining_bench[facing=east,shape=right,waterlogged=false]"
+      },
+      {
+        "char": "o",
+        "block": "handcrafted:dark_oak_dining_bench[facing=north,shape=left,waterlogged=false]"
+      },
+      {
+        "char": "s",
+        "block": "vm:vending_machine[bottom=false,facing=north]"
+      },
+      {
+        "char": "q",
+        "block": "handcrafted:dark_oak_dining_bench[facing=north,shape=right,waterlogged=false]"
+      },
+      {
+        "char": "e",
+        "block": "handcrafted:dark_oak_dining_bench[facing=east,shape=left,waterlogged=false]"
+      },
+      {
+        "char": "f",
+        "block": "handcrafted:dark_oak_dining_bench[facing=south,shape=right,waterlogged=false]"
+      },
+      {
+        "char": "i",
+        "block": "handcrafted:dark_oak_dining_bench[facing=south,shape=left,waterlogged=false]"
+      },
+      {
+        "char": "m",
+        "block": "vm:vending_machine[bottom=true,facing=south]"
+      },
+      {
+        "char": "n",
+        "block": "vm:vending_machine[bottom=true,facing=north]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        " w        p   w ",
+        "                ",
+        "     p       p  ",
+        "                ",
+        "    p  e fi     ",
+        "       jkm      ",
+        "                ",
+        "                ",
+        "       enk      ",
+        "       j oq     ",
+        "           p    ",
+        "      p         ",
+        "                ",
+        " w            w ",
+        "                "
+      ],
+      [
+        "                ",
+        " w            w ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "         r      ",
+        "                ",
+        "                ",
+        "        s       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        " w            w ",
+        "                "
+      ],
+      [
+        "                ",
+        " w            w ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        " w            w ",
+        "                "
+      ]
+    ]
+  }
+}

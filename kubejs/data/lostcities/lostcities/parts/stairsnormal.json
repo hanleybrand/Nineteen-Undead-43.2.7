@@ -11,13 +11,29 @@
   ],
   "xsize": 6,
   "zsize": 11,
+  "palette": {
+    "palette": [
+      {
+        "char": "i",
+        "block": "horror_elements_mod:flashing_lamp_1"
+      },
+      {
+        "char": "f",
+        "block": "vm:vending_machine[bottom=false,facing=north]"
+      },
+      {
+        "char": "e",
+        "block": "vm:vending_machine[bottom=true,facing=north]"
+      }
+    ]
+  },
   "slices": [
     [
       "      ",
       "      ",
       "      ",
       "      ",
-      "      ",
+      "ee    ",
       "xxxxxx",
       "xxxxx/",
       "xxxxx/",
@@ -30,7 +46,7 @@
       "      ",
       "      ",
       "      ",
-      "      ",
+      "ff    ",
       "xxxxx_",
       "xxxx/ ",
       "xxxx/ ",
@@ -44,12 +60,12 @@
       "      ",
       "      ",
       "      ",
-      "xxxx_ ",
+      "xxix_ ",
       "xxx/  ",
       "xxx/  ",
       "xxx/  ",
       "xxx/  ",
-      "xxxx_ "
+      "xxix_ "
     ],
     [
       "      ",

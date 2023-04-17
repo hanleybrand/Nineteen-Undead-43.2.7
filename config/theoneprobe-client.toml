@@ -49,26 +49,26 @@ showHorseStatSetting = "EXTENDED"
 showSilverfish = "NOT"
 #The distance to the left side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxLeftX = 5
+boxLeftX = -1
 #The distance to the right side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
 boxRightX = -1
 #The distance to the top side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxTopY = -1
+boxTopY = 5
 #The distance to the bottom side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxBottomY = 5
+boxBottomY = -1
 #Color of the border of the box (0 to disable)
-boxBorderColor = "ffffffff"
+boxBorderColor = "ff4503d0"
 #Color of the box (0 to disable)
 boxFillColor = "ff000000"
 #Thickness of the border of the box (0 to disable)
 #Range: 0 ~ 20
-boxThickness = 2
+boxThickness = 1
 #How much the border should be offset (i.e. to create an 'outer' border)
 #Range: 0 ~ 20
-boxOffset = 0
+boxOffset = 1
 #If true show liquid information when the probe hits liquid first
 showLiquids = false
 #Toggle default probe visibility (client can override)
@@ -88,25 +88,25 @@ harvestStyleVanilla = true
 
 [style]
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	ModName = "white,italic"
+	ModName = "blue,italic"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	High = "white"
+	High = "gold"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Warning = "white"
+	Warning = "yellow"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Label = "white,underline"
+	Label = "gray"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Ok = "white"
+	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Obsolete = "white,strikethrough"
+	Obsolete = "gray,strikethrough"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	InfoImportant = "white,bold"
+	InfoImportant = "blue"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Error = "white,underline"
+	Error = "red,bold"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Info = "white"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Name = "white,bold"
+	Name = "white"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Progress = "white"
 

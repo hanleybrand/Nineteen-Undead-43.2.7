@@ -1,6 +1,5 @@
 {
     "tipsmod.title.default": "Tip",
-    "tipsmod.title.apocalyspe": "Apocalypse Survival",
     "tipsmod.tip.no_tips": "No tips have been loaded. Please review the configurations.",
     "tipsmod.tip.poison_immune": "Zombies are immune to poison damage. Skeletons and Spiders too, if you happen to see any",
     "tipsmod.tip.west": "The Sun moves towards the west, other celestial objects have their own motives",
@@ -14,6 +13,7 @@
     "tipsmod.tip.joke.lava": "Like any items, buckets will burn in lava, but not when the lava is IN the bucket.",
     "tipsmod.tip.joke.creeper": "Don't play AC/DC near Creepers, they may become Thunderstruck. Have you seen any Creepers, btw?",
     "tipsmod.tip.joke.shears": "Running with Shears is safer in Minecraft. Also try Wooden Shears!",
-    "tipsmod.tip.joke.19u_mob_spawns": "Only zombies have returned to the world - you'll either strain or stuff will have to come from nothing?",
-    "tipsmod.tip.joke.19u_silkworms": "The crafty crook catches the silkworm. (hint hint)"
+    "tipsmod.title.apocalyspe": "Apocalypse Survival Tip",
+    "tipsmod.tip.ntnd_mob_spawns": "Only zombies have returned to the world - you'll either strain or stuff will have to come from nothing?",
+    "tipsmod.tip.ntnd_silkworms": "The crafty crook catches the silkworm. (hint hint)"
 }

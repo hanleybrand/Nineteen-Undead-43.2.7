@@ -1,0 +1,8 @@
+{
+    "buildings": [
+        "clinic"
+    ],
+    "terrainheight": "highest",
+    "terrainfix": "none",
+    "heightoffset": -3
+}

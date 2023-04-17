@@ -128,6 +128,10 @@
 	"Celebratory Lamps" = true
 	"Bamboo Backport" = true
 
+	[building.vertical_slabs]
+		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
+		"Allow Side Connections" = true
+
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
@@ -163,14 +167,14 @@
 		"Change Names" = true
 
 	[building.thatch]
-		#Allowed values: [0,1]
-		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded: 
 		# - goated
 		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
+		#Allowed values: [0,1]
+		"Fall Damage Multiplier" = 0.5
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -301,6 +305,8 @@
 		"Enable Loose Matching" = true
 		#Enable comparing enchantments to find a replacement
 		"Enable Enchant Matching" = true
+		#Allow pulling items from one hotbar slot to another
+		"Check Hotbar" = false
 		"Unstackables Only" = false
 
 [tools]
@@ -514,6 +520,8 @@
 		"Enable Repeater" = true
 		#Can you craft a minecart around blocks which can be placed inside?
 		"Enable Minecarts" = true
+		#Can you craft a boat around a chest to directly make a chest boat?
+		"Enable Chest Boats" = true
 		#Can you craft four chests at once using logs?
 		"Logs To Chests" = true
 		#Can Coral be crafted into dye?
@@ -645,6 +653,15 @@
 		"Button Shift X" = 0
 		"Button Shift Y" = 0
 
+	[tweaks.double_door_opening]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - utilitix
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Enable Doors" = true
+		"Enable Fence Gates" = true
+
 	[tweaks.compasses_work_everywhere]
 		"Enable Compass Nerf" = true
 		"Enable Clock Nerf" = true
@@ -667,7 +684,7 @@
 	"Spiral Spires" = true
 	Permafrost = true
 	"No More Lava Pockets" = true
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true
@@ -881,12 +898,12 @@
 			Dimensions = ["minecraft:overworld"]
 
 	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Max Weirdness Range" = 2.0
 		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
 		#Allowed values: [-2,2]
 		"Min Depth Range" = 1.5499999523162842
+		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Max Weirdness Range" = 2.0
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
@@ -1054,10 +1071,10 @@
 	[world.big_stone_clusters]
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
 		#do "block|dimension", as we do for netherrack and end stone by default.
-		"Blocks To Replace" = []
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate"]
 
 		[world.big_stone_clusters.calcite]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1088,7 +1105,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1119,7 +1136,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.jasper]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1150,7 +1167,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.shale]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1181,8 +1198,8 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.myalite]
-			"Generate In Air" = false
-			Enabled = false
+			"Generate In Air" = true
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 100
 			#Allowed values: [-64,320]
@@ -1534,7 +1551,7 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = false
+		"Nerf Mending" = true
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots

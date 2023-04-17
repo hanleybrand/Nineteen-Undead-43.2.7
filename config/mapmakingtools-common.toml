@@ -1,0 +1,7 @@
+
+[Commands]
+
+	[Commands."Quick Build"]
+		#Quick build command format. Use <cmd> to represent the command name, for example 'qb-<cmd>' makes the commands /qb-set, /qb-undo etc
+		format = "/<cmd>"
+

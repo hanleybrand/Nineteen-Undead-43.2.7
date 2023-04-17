@@ -1,0 +1,95 @@
+{
+  "__comment_outsidestyle___": "outsidestyle (a value of 'outside' refers to ../styles/outside.json) for generation outside of cities",
+  "outsidestyle": "outside",
+  "__comment_scattered__": "scattered controls building generation outside of cities",
+  "scattered": {
+    "__areasize__": "chance of attempted generation caculated once per (areasize x areasize) chunks",
+    "areasize": 8,
+    "__chance__": "chance of a generation attmept happening in the chunk area - 100% = 1, 10% = 0.1",
+    "chance": 0.1,
+    "__weightnone__": "a chance that for any generation attempt nothing will be built (lower values increase scattered building generation)",
+    "weightnone": 20,
+    "list": [
+      {
+        "name": "radiotower",
+        "weight": 15,
+        "maxheightdiff": 3,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      },
+      {
+        "name": "oilrig",
+        "weight": 1,
+        "maxheightdiff": 100,
+        "biomes": {
+          "if_any": [
+            "#minecraft:is_deep_ocean"
+          ]
+        }
+      },
+      {
+        "name": "cabin",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      },
+      {
+        "name": "clinic",
+        "weight": 30,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
+          ]
+        }
+      }
+    ]
+  },
+  "citybiomemultipliers": [
+    {
+      "multiplier": 0.1,
+      "biomes": {
+        "if_any": [
+          "#minecraft:is_ocean"
+        ]
+      }
+    },
+    {
+      "multiplier": 0.3,
+      "biomes": {
+        "if_any": [
+          "#minecraft:is_river"
+        ]
+      }
+    }
+  ],
+  "citystyles": [
+    {
+      "factor": 0.5,
+      "citystyle": "citystyle_standard"
+    },
+    {
+      "factor": 9.0,
+      "biomes": {
+        "if_any": [
+          "minecraft:desert",
+          "minecraft:badlands"
+        ]
+      },
+      "citystyle": "citystyle_desert"
+    }
+  ]
+}

@@ -8,9 +8,9 @@
 		"distance": "-100"
 	},
 	"rotation": {
-		"degrees_x": "#skyAngle + 90",
+		"degrees_x": "#moonXRot",
 		"degrees_y": "0",
-		"degrees_z": "0"
+		"degrees_z": "#LHRAngle"
 	},
 	"properties": {
 		"has_moon_phases": true,

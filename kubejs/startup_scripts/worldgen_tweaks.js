@@ -2,6 +2,7 @@
 
 
 WorldgenEvents.remove(event => {
+    console.log('printing possible plains features ========')
     event.printFeatures('', 'minecraft:plains')
 })
 

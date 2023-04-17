@@ -152,7 +152,7 @@
           "block": "minecraft:crafting_table"
         },
         {
-          "random": 7,
+          "random": 3,
           "block": "minecraft:brewing_stand"
         },
         {
@@ -160,12 +160,8 @@
           "block": "minecraft:anvil[facing=north]"
         },
         {
-          "random": 10,
+          "random": 15,
           "block": "cgm:workbench"
-        },
-        {
-          "random": 2,
-          "block": "minecraft:enchanting_table"
         },
         {
           "random": 1000,

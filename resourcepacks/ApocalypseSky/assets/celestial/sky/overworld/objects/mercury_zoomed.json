@@ -9,7 +9,7 @@
 	},
 	"rotation": {
 		"degrees_x": "5",
-		"degrees_y": "(360 - #skyAngle) + 60",
+		"degrees_y": "#mercuryYRot",
 		"degrees_z": "90"
 	},
 	"properties": {

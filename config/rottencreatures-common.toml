@@ -1,7 +1,7 @@
 
 ["Mob Spawns"]
 	#determines how often will Burneds spawn
-	"Burned Weight" = 20
+	"Burned Weight" = 21
 	#determines how often will Frostbittens spawn
 	"Frostbitten Weight" = 80
 	#determines how often will Glacial Hunters spawn

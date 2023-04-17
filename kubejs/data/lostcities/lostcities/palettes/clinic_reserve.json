@@ -1,0 +1,152 @@
+{
+    "palette": [
+        {
+            "char": "i",
+            "block": "minecraft:reinforced_deepslate"
+        },
+        {
+            "char": "k",
+            "block": "handcrafted:oak_counter_1[facing=south,shape=middle]"
+        },
+        {
+            "char": "m",
+            "block": "handcrafted:oak_counter_1[facing=south,shape=right]"
+        },
+        {
+            "char": "n",
+            "block": "handcrafted:oak_counter_1[facing=west,shape=middle]"
+        },
+        {
+            "char": "q",
+            "block": "moa_decor_science:biombomblanco[facing=north]"
+        },
+        {
+            "char": "I",
+            "block": "moa_decor_science:microscopio[facing=south]"
+        },
+        {
+            "char": "r",
+            "block": "moa_decor_science:lectordesignosvitales[facing=north]"
+        },
+        {
+            "char": "^",
+            "block": "citydecor:red_bricks_slab[type=bottom,waterlogged=false]"
+        },
+        {
+            "char": "H",
+            "block": "moa_decor_science:tubosensayorojo[facing=south]"
+        },
+        {
+            "char": "O",
+            "block": "moa_decor_science:botiquindepared[facing=east]"
+        },
+        {
+            "char": "8",
+            "block": "citydecor:white_bricks_slab[type=bottom,waterlogged=false]"
+        },
+        {
+            "char": "U",
+            "block": "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+            "char": "e",
+            "block": "citydecor:white_steel_siding"
+        },
+        {
+            "char": "E",
+            "block": "citydecor:glass_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+        },
+        {
+            "char": "5",
+            "block": "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]"
+        },
+        {
+            "char": "J",
+            "block": "moa_decor_science:portapapeles[facing=south]"
+        },
+        {
+            "char": "V",
+            "block": "moa_decor_science:botiquindepared[facing=west]"
+        },
+        {
+            "char": "f",
+            "block": "minecraft:deepslate_tiles"
+        },
+        {
+            "char": "o",
+            "block": "handcrafted:oak_counter_1[facing=west,shape=right]"
+        },
+        {
+            "char": "6",
+            "block": "horror_elements_mod:flashing_lamp_1"
+        },
+        {
+            "char": "7",
+            "block": "horror_elements_mod:flashing_lamp_on"
+        },
+        {
+            "char": "s",
+            "block": "moa_decor_science:camahazul[facing=west]"
+        },
+        {
+            "char": "M",
+            "block": "moa_decor_science:botiquindepared[facing=south]"
+        },
+        {
+            "char": "j",
+            "block": "handcrafted:oak_counter_1[facing=south,shape=left]"
+        },
+        {
+            "char": "N",
+            "block": "moa_decor_science:frascodepildoras[facing=west]"
+        },
+        {
+            "char": "0",
+            "block": "citydecor:glass_door[facing=west,half=upper,hinge=left,open=false,powered=false]"
+        },
+        {
+            "char": "1",
+            "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=north]"
+        },
+        {
+            "char": "2",
+            "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=west]"
+        },
+        {
+            "char": "3",
+            "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=south]"
+        },
+        {
+            "char": "4",
+            "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=east]"
+        },
+        {
+            "char": "|",
+            "block": "create:framed_glass_door[facing=south,half=upper,hinge=left,open=false,powered=false,visible=true]"
+        },
+        {
+            "char": "{",
+            "block": "create:framed_glass_door[facing=south,half=upper,hinge=right,open=false,powered=false,visible=true]"
+        },
+        {
+            "char": "[",
+            "block": "create:framed_glass_door[facing=south,half=lower,hinge=left,open=false,powered=false,visible=true]"
+        },
+        {
+            "char": "]",
+            "block": "securitycraft:reinforced_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+            "char": "'",
+            "block": "horror_elements_mod:flashing_lamp_on"
+        },
+        {
+            "char": "P",
+            "block": "horrors_of_october:steel_table"
+        },
+        {
+            "char": "&",
+            "block": "create:framed_glass_door[facing=south,half=lower,hinge=right,open=false,powered=false,visible=true]"
+        }
+    ]
+}

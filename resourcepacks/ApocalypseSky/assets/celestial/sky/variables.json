@@ -1,0 +1,34 @@
+{
+    "variables": [
+        {
+            "name": "mercuryYRot",
+            "value": "(#skyAngle / 2) + 60"
+        },
+        {
+            "name": "jupiterYRot",
+            "value": "(360 - #skyAngle) + 130"
+        },
+        {
+            "name": "moonXRot",
+            "value": "(#skyAngle + 90) /2"
+        },
+        {
+            "name": "halfSky",
+            "value": "(#skyAngle / 2) + 1"
+        },
+        {
+            "name": "isUsingRangedWeapon",
+            "value": "(#isUsing(bow) | #isUsing(crossbow)) | #isUsing(trident)"
+        },
+        {
+            "name": "incrementValue",
+            "value": "#incrementValue + 1",
+            "update_frequency": 20
+        },
+        {
+            "name": "LHRAngle",
+            "value": "(#localHour * 10)",
+            "update_frequency": 60
+        }
+    ]
+}

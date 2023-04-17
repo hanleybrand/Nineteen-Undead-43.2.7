@@ -1,0 +1,116 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "i",
+        "block": "horror_elements_mod:flashing_lamp_1"
+      },
+      {
+        "char": "f",
+        "block": "vm:vending_machine[bottom=false,facing=north]"
+      },
+      {
+        "char": "e",
+        "block": "vm:vending_machine[bottom=true,facing=north]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 6,
+    "zsize": 11,
+    "slices": [
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "ee    ",
+        "xxxxxx",
+        "xxxxx/",
+        "xxxxx/",
+        "xxxxx/",
+        "xxxxx/",
+        "xxxxxx"
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "ff    ",
+        "xxxxx_",
+        "xxxx/ ",
+        "xxxx/ ",
+        "xxxx/ ",
+        "xxxx/ ",
+        "xxxxx_"
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "xxix_ ",
+        "xxx/  ",
+        "xxx/  ",
+        "xxx/  ",
+        "xxx/  ",
+        "xxix_ "
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "xxx_  ",
+        "xx/   ",
+        "xx/   ",
+        "xx/   ",
+        "xx/   ",
+        "xxx_  "
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "xx_   ",
+        "x/    ",
+        "x/    ",
+        "x/    ",
+        "x/    ",
+        "xx_   "
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "x_    ",
+        "/     ",
+        "/     ",
+        "/     ",
+        "/     ",
+        "x_    "
+      ],
+      [
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "_     ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "_     "
+      ]
+    ]
+  }
+}
